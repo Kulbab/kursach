@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+	--webkit-font-smoothing: antialiased;
+	--webkit-overflow-scrolling: touch;
+
+	margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:"Raleway";
+	font-weight: 300;
+	color: #333;
+}
+p{
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+.centered{
+	text-align: center;
+}
+
+.jumbotron{
+	background: url(https://www.economist.com/img/b/1280/720/90/sites/default/files/images/2021/11/articles/main/20211204_eup501.jpg) no-repeat center top;
+	margin-top: -10px;
+	
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 370px;
+	width: 100%;
+
+	background-size: 100%;
+
+
+	--webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+}
+.jumbotron h2{
+	margin-top: 100px;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	color:black;
+}
+.jumbotron p{
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase
+}
+.fakeimg{
+	background-color: white;
+	background: white;
+}
+#fot{
+	margin-top: 20px;
+	min-height: 150px;
+border-top:2px solid black; 
+}
+.image-flip:hover .backside, .image-flip.hover .backside {
+-webkit-transform: rotateY(0deg);
+-moz-transform: rotateY(0deg);
+-o-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+transform: rotateY(0deg);
+}
+.image-flip:hover .frontside, .image-flip.hover .frontside {
+-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+transform: rotateY(180deg);
+}
+.image-flip {
+margin-bottom:200px;
+width: 300px;
+height: 250px;
+}
+.mainflip {
+-webkit-transition: 1s;
+-webkit-transform-style: preserve-3d;
+-ms-transition: 1s;
+-moz-transition: 1s;
+-moz-transform: perspective(1000px);
+-moz-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transition: 1s;
+transform-style: preserve-3d;
+position: relative;
+}
+.frontside, .backside {
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transition: 1s;
+-webkit-transform-style: preserve-3d;
+-moz-transition: 1s;
+-moz-transform-style: preserve-3d;
+-o-transition: 1s;
+-o-transform-style: preserve-3d;
+-ms-transition: 1s;
+-ms-transform-style: preserve-3d;
+transition: 1s;
+transform-style: preserve-3d;
+position: absolute;
+top: 0;
+left: 0;
+}
+.frontside {
+-webkit-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+z-index: 2;
+}
+.backside {
+background: white;
+-webkit-transform: rotateY(-180deg);
+-moz-transform: rotateY(-180deg);
+-o-transform: rotateY(-180deg);
+-ms-transform: rotateY(-180deg);
+transform: rotateY(-180deg);
+}
+.card, .card-img-top {
+border-radius: 0;
+}
+#sb{
+	margin-top: 5px
+
+}
+#sb:hover{
+	background-color: #07E5F3;
+	color:white;
+}
+.thumb img {
+-webkit-filter: grayscale(0);
+filter: none;
+border-radius: 5px;
+background-color: #fff;
+border: 1px solid #ddd;
+padding: 5px;
+}
+.thumb img:hover {
+-webkit-filter: grayscale(1);
+filter: grayscale(1);
+}
+.thumb {
+padding: 5px;
+}
+#sing{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#headerwrap h1,h2{
+	text-align: center;
+}
+#headerwrap{
+	padding-right:5%;
+}
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+#map{
+	width: 100%;
+	height:600px;
+}
+
+#slider span{
+	background-color:black;
+}
+#lefttable h2{
+	text-align: left;
+}
+#h h1{
+	color: black;
+}
+
+#fot p{
+	color: white;
+}
+#gal{color: white; }
+#albm{background: url(https://knowhow.pp.ua/wp-content/uploads/2019/01/st-gallen-library-switzerland.adapt_.1900.1-0119.jpg) no-repeat center top;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:751px) {
+	#headerwrap{
+		padding-left:0;
+	}
+}
+@media screen and (min-width:1199px) {
+	#headerwrap{
+		padding-left:25%;
+	}
+}
+@media screen and (min-width:1125px) {
+	#headerwrap{
+		padding-left:25%;
+	}
+}
+@media screen and (min-width:1111px) {
+	#headerwrap{
+		padding-left:25%;
+	}
+}
+@media screen and (min-width:993px) {
+	#headerwrap{
+		padding-left:25%;
+	}
+}
